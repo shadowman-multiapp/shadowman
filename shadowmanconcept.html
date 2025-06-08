@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Functional App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="icon1.png" alt="Icon 1">
+            <img src="icon2.png" alt="Icon 2">
+            <img src="iconplaceholder.png" alt="Icon 3">
+            <img src="iconplaceholder.png" alt="Icon 4">
+            <img src="iconplaceholder.png" alt="Icon 5">
+        </div>
+        <div class="header">
+            <div class="header-title">Shadowman</div>
+            <div class="header-search">
+                <input type="text" placeholder="Search">
+                <div class="header-buttons">
+                    <button title="Settings"><i class="fa-solid fa-gear" style="color: #ff0000;"></i></button>
+                    <button title="Create" class="create-btn"><i class="fa-solid fa-plus" style="color: #ff0000;"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 1</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 2</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 3</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 4</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 5</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 6</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 7</div>
+            <div class="section" style="background-color: white; color: black; font-family: Arial, sans-serif;">Post 8</div>
+        </div>
+        <div class="bottombar">
+            <button>
+                <i class="fa-solid fa-house"></i>
+                Home
+            </button>
+            <button>
+                <i class="fa-regular fa-bell"></i>
+                Notifications
+            </button>
+            <button>
+                <img src="pfp.png" alt="You Icon">
+                You
+            </button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/db537cdfa0.js" crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.create-btn').addEventListener('click', function() {
+            window.location.href = 'shadowmancreatemenuconcept.html';
+        });
+    </script>
+</body>
+</html>
