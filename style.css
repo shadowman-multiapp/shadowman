@@ -7,9 +7,18 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Shadowman Letters';
+    src: url('Shadowman_letters-Regular.woff2') format('woff2'),
+        url('Shadowman_letters-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
-    font-family: 'paint', Arial, sans-serif;
+    font-family: 'Shadowman Letters', 'paint', Arial, sans-serif;
     background: linear-gradient(#4c0000, black, black);
     color: red;
 }
@@ -219,4 +228,5 @@ input {
 
 .create-options li:hover {
     background-color: rgba(255, 0, 0, 0.4);
+
 }
