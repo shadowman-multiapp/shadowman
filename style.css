@@ -18,7 +18,7 @@
 
 body {
     margin: 0;
-    font-family: 'Shadowman Letters', 'paint', Arial, sans-serif;
+    font-family: 'Shadowman Letters', Arial, sans-serif;
     background: linear-gradient(#4c0000, black, black);
     color: red;
 }
@@ -230,3 +230,4 @@ input {
     background-color: rgba(255, 0, 0, 0.4);
 
 }
+
